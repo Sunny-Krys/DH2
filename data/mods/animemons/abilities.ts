@@ -1,9 +1,9 @@
 export const Abilities: {[k: string]: ModdedAbilityData} = {
-	schooling: {
+	horde: {
 		onStart(pokemon) {
 			if (pokemon.baseSpecies.baseSpecies !== 'Soot Sprite' || pokemon.level < 20 || pokemon.transformed) return;
 			if (pokemon.hp > pokemon.maxhp / 4) {
-				if (pokemon.species.id === 'Soot Sprite') {
+				if (pokemon.species.id === 'sootsprite') {
 					pokemon.formeChange('Soot Sprite-Horde');
 				}
 			} else {
@@ -19,7 +19,7 @@ export const Abilities: {[k: string]: ModdedAbilityData} = {
 				pokemon.transformed || !pokemon.hp
 			) return;
 			if (pokemon.hp > pokemon.maxhp / 4) {
-				if (pokemon.species.id === 'Soot Sprite') {
+				if (pokemon.species.id === 'sootsprite') {
 					pokemon.formeChange('Soot Sprite-Horde');
 				}
 			} else {

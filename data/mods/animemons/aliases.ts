@@ -1,6 +1,6 @@
 export const Aliases: {[alias: string]: string} = {
 	mello: "Mihael Keehl",
-    near: "Nate Rivers",
+    near: "Nate River",
     kira: "Light Yagami",
     xkira: "Teru Mikami",
     keater: "Ken Kaneki",

@@ -43,9 +43,9 @@ export const Pokedex: {[k: string]: ModdedSpeciesData} = {
 		weightkg: 52, 
 		color: "Yellow",
 	},
-	naterivers: {
+	nateriver: {
 		num: 5,
-		name: "Nate Rivers",
+		name: "Nate River",
 		types: ["Psychic"],
 		gender: "M",
 		baseStats: {hp: 87, atk: 45, def: 90, spa: 145, spd: 135, spe: 48},
@@ -205,7 +205,7 @@ export const Pokedex: {[k: string]: ModdedSpeciesData} = {
     myoga: {
 		num: 17,
 		name: "Myoga",
-		types: ["Bug", "Poison"],
+		types: ["Bug"],
 		gender: "M",
 		baseStats: {hp: 200, atk: 81, def: 55, spa: 64, spd: 80, spe: 50},
 		abilities: {0: "Telepathy", 1: "Wimp Out", H: "Poison Heal"},

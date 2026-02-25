@@ -11,7 +11,7 @@ export const FormatsData: {[k: string]: ModdedSpeciesFormatsData} = {
     mihaelkeehl: {
 		tier: "AOU",
 	},
-    naterivers: {
+    nateriver: {
 		tier: "AOU",
 	},
     rem: {
@@ -30,7 +30,7 @@ export const FormatsData: {[k: string]: ModdedSpeciesFormatsData} = {
 		tier: "AOU",
 	},
     ichikanakano: {
-		tier: "AWIP",
+		tier: "AOU",
 	},
     ninonakano: {
 		tier: "AOU",
@@ -42,7 +42,7 @@ export const FormatsData: {[k: string]: ModdedSpeciesFormatsData} = {
 		tier: "AOU",
 	},
     itsukinakano: {
-		tier: "AWIP",
+		tier: "AOU",
 	},
     kenkaneki: {
 		tier: "AOU",
